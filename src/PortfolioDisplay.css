@@ -1,0 +1,214 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #eef1f6;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 4px;
+}
+.profile-section h1{
+    color: black;
+}
+
+.portfolio-container h2 {
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #6a11cb;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #222;
+    text-align: center
+}
+
+.bio {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+
+.about-section {
+    margin-top: 30px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #6a11cb;
+}
+
+.about-section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.projects-section_portfolio_display {
+    margin-top: 30px;
+}
+
+.projects-section_portfolio_display h2 {
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #6a11cb;
+}
+
+
+.project-card_portfolio_display {
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card_portfolio_display:hover {
+    transform: translateY(-5px);
+}
+
+.project-card_portfolio_display h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.project-card_portfolio_display p {
+    font-size: 15px;
+    color: #444;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project-card_portfolio_display a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a11cb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.social-media-section {
+    margin-top: 30px;
+}
+
+.social-media-section h2 {
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #6a11cb;
+}
+
+.social-media-section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.social-media-section a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media-section a:hover {
+    text-decoration: underline;
+}
+
+.skills-container, .interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.skill-badge, .interest-badge {
+    background: #6a11cb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.skill-badge {
+    background: #28a745;
+}
+
+.interest-badge {
+    background: #ff9800;
+}
+
+.no-data-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.no-data-container h2 {
+    font-size: 24px;
+    color: #ff4a4a;
+}
+
+.no-data-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.fill-form-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fill-form-link:hover {
+    background-color: #0056b3;
+}
+
+.portfolio-heading {
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #0056b3;
+}

@@ -1,0 +1,37 @@
+.projects-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-card {
+    width: 300px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card h3 {
+    color: #6a11cb;
+  }
+  
+  .project-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,79 @@
+.about-me-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-content {
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+.skills-container, .interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.skill-badge, .interest-badge {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.skill-badge {
+    background: #28a745;
+}
+
+.interest-badge {
+    background: #ff9800;
+}
+
+.no-data-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.no-data-container h2 {
+    font-size: 24px;
+    color: #ff4a4a;
+}
+
+.no-data-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.fill-form-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fill-form-link:hover {
+    background-color: #0056b3;
+}
