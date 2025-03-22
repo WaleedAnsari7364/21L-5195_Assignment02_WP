@@ -26,6 +26,8 @@ export default function PortfolioDisplayPage({ portfolioData }) {
             
                 {portfolioData.profilePicture && <img src={portfolioData.profilePicture} alt="Profile" className="profile-picture" />}
                 <h1>{portfolioData.name}</h1>
+                <p className="email">{portfolioData.email}</p>
+                <p className="contact">{portfolioData.contact_number}</p>
                 <p className="bio">{portfolioData.bio}</p>
             </div>
 

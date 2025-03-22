@@ -65,9 +65,20 @@ export default function DataEntryPage({ setPortfolioData }) {
         });
     };
 
+    const validateForm = () => {
+        const { name, email, contact_number, skills, interests } = formData;
+        if (!name || !email || !contact_number || !skills || !interests) {
+            alert("Please fill out all required fields: Name, Email, Contact Number, Skills, and Interests.");
+            return false;
+        }
+        return true;
+    };
+
     const handleSubmit = () => {
-        setPortfolioData(formData);
-        navigate("/portfolio");
+        if (validateForm()) {
+            setPortfolioData(formData);
+            navigate("/portfolio");
+        }
     };
 
     return (
@@ -75,7 +86,7 @@ export default function DataEntryPage({ setPortfolioData }) {
             <h2>Personal Information</h2>
             <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} className="input-field" />
             <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} className="input-field" />
-            <input type="text" name="contact_number" placeholder="Contact Number" value={formData.contact_number} onChange={handleChange} className="input-field" />
+            <input type="number" name="contact_number" placeholder="Contact Number" value={formData.contact_number} onChange={handleChange} className="input-field" />
             <textarea name="bio" placeholder="Bio" value={formData.bio} onChange={handleChange} className="textarea-field"></textarea>
 
             <h2>About Me</h2>

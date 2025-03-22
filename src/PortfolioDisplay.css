@@ -50,6 +50,16 @@ h1 {
     color: #777;
     margin-top: 5px;
 }
+.email {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
+.contact {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+}
 
 .about-section {
     margin-top: 30px;

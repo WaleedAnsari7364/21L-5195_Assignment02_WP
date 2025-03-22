@@ -11,7 +11,7 @@ const Project = () => {
       .then((response) => response.json())
       .then((data) => {
         const formattedProjects = data.map((repo, index) => ({
-          id: `project-${index}`, // Unique ID for each project
+          id: `project-${index}`,
           title: repo.name,
           description: repo.description || "No description available.",
           url: repo.html_url,
